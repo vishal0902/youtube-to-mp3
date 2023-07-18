@@ -3,8 +3,38 @@ body {
   padding: none;
   height: 100vh;
   box-sizing: border-box;
- 
-  justify-content: center;
   
-  background: linear-gradient(45deg,rgb(11, 82, 96), rgb(206, 4, 241),rgb(255, 255, 255) );
+  justify-content: center;
+  color:white;
+  
+  background: linear-gradient(120deg, purple, rgb(235, 191, 235),white );
+}
+
+.Converter {
+  margin-top: 50px;
+  max-width: 500px;
+  min-width: 300px;
+  align-self: center;
+  justify-content: center;
+  align-content:center ;
+  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 30px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.navbar-brand {
+  color: #fff;
 }
