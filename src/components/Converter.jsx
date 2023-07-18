@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import axios from "axios";
 
+
 function Converter() {
   const videoUrl = useRef(null);
 
@@ -34,15 +35,7 @@ function Converter() {
     const videoID = youtubeVideoIdParser(url);
     videoUrl.current.value = "";
     setDisplayForm(false);
-    // const options = {
-    //   method: "GET",
-    //   url: "https://youtube-mp3-download1.p.rapidapi.com/dl",
-    //   params: { id: videoID },
-    //   headers: {
-    //     "X-RapidAPI-Key": "71a0316020msh212d65d7f956938p1dab34jsn8cdd18cb5ff3",
-    //     "X-RapidAPI-Host": "youtube-mp3-download1.p.rapidapi.com",
-    //   },
-    // };
+   
 
     const options = {
       method: "GET",

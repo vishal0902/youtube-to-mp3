@@ -6,7 +6,7 @@ function Nav() {
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img
-            src="youtube.svg"
+            src="ytb.svg"
             alt="logo"
             style={{
               maxHeight: "50px",
